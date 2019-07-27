@@ -1,19 +1,6 @@
 import React from "react"
 
 class ContactSection extends React.Component {
-  state = {
-    errors: {},
-  }
-
-  validateEmail(email) {
-    const re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
-    return re.test(email)
-  }
-
-  handleSubmit(event) {
-    console.log(event)
-  }
-
   render() {
     return (
       <div
@@ -58,7 +45,7 @@ class ContactSection extends React.Component {
                         type="email"
                         className="form-control"
                         placeholder="Email"
-                        valid={this.state.errors.email ? "false" : "true"}
+                        // valid={this.state.errors.email ? "false" : "true"}
                         required
                       />
                     </div>
@@ -73,7 +60,6 @@ class ContactSection extends React.Component {
                     </div>
                     <div className="form-group">
                       <textarea
-                        name=""
                         id="message"
                         name="message"
                         cols="30"

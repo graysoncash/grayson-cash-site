@@ -34,7 +34,7 @@ export default class AboutMe extends React.Component {
                 <span className="heading-meta">About Me</span>
                 <h3>{aboutMeStrings.headline}</h3>
                 {aboutMeStrings.summary.map((s, i) => (
-                  <React.Fragment>
+                  <React.Fragment key={`about-me-p-${i}`}>
                     <p>{s}</p>
                   </React.Fragment>
                 ))}

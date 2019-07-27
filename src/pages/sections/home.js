@@ -4,6 +4,15 @@ import PropTypes from "prop-types"
 import ImgBg1 from "../../images/img_bg_1.jpg"
 
 class Home extends React.Component {
+  constructor(props) {
+    super(props)
+    this.activeTabHandler.bind(this)
+  }
+
+  activeTabHandler() {
+    this.props.activeTabHandler("aboutMe")()
+  }
+
   render() {
     return (
       <aside
@@ -33,12 +42,12 @@ class Home extends React.Component {
                           Developer
                         </h2>
                         <p>
-                          <a
-                            onClick={this.props.activeTabHandler("aboutMe")}
+                          <button
                             className="btn btn-primary btn-learn"
+                            onClick={this.activeTabHandler}
                           >
                             About Me <i className="icon-arrow-down3"></i>
-                          </a>
+                          </button>
                         </p>
                       </div>
                     </div>
