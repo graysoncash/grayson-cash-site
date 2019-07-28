@@ -4,7 +4,9 @@ node_js:
 install:
   - yarn global add travis-ci-cloudfront-invalidation gatsby-cli
   - yarn
-script: gatsby build
+script:
+  - gatsby build
+  - rvm get update
 deploy:
   provider: s3
   access_key_id: $AWS_ACCESS_ID
