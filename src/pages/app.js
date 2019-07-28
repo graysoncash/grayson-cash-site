@@ -10,6 +10,7 @@ import AboutMeSection from "./sections/aboutMe"
 import ExperienceSection from "./sections/experience"
 import ContactSection from "./sections/contact"
 
+import "../css/brands.css"
 import "../sass/bootstrap.scss"
 import "../sass/style.scss"
 

@@ -15,18 +15,11 @@ export default function HTML(props) {
 
         <link rel="shortcut icon" href="favicon.ico" />
 
-        {/* Animate JS */}
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
-        />
-
         <link
           href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700"
           rel="stylesheet"
         />
 
-        <link rel="stylesheet" href="css/icomoon.css" />
         <link rel="stylesheet" href="css/flexslider.css" />
         <script src="js/modernizr-2.6.2.min.js" />
         {props.headComponents}
@@ -45,12 +38,12 @@ export default function HTML(props) {
         {props.postBodyComponents}
 
         <script src="js/jquery.min.js"></script>
-        <script src="js/jquery.easing.1.3.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/jquery.waypoints.min.js"></script>
-        <script src="js/jquery.flexslider-min.js"></script>
-        <script src="js/sticky-kit.min.js"></script>
+        {/* <script src="./js/jquery.easing.1.3.js"></script> */}
+        {/* <script src="./js/bootstrap.min.js"></script> */}
+        {/* <script src="./js/jquery.waypoints.min.js"></script> */}
+        {/* <script src="./js/sticky-kit.min.js"></script> */}
         {/* <script src="js/main.js"></script> */}
+        <script src="js/jquery.flexslider-min.js"></script>
       </body>
     </html>
   )

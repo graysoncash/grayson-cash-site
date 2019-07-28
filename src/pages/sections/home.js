@@ -6,7 +6,7 @@ import ImgBg1 from "../../images/img_bg_1.jpg"
 class Home extends React.Component {
   constructor(props) {
     super(props)
-    this.activeTabHandler.bind(this)
+    this.activeTabHandler = this.activeTabHandler.bind(this)
   }
 
   activeTabHandler() {

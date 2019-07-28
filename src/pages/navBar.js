@@ -107,7 +107,7 @@ class NavBar extends React.Component {
           <ul>
             <li>
               <a href="https://www.linkedin.com/in/graysonlcash">
-                <i className="icon-linkedin2"></i>
+                <i className="fab fa-linkedin"></i>
               </a>
             </li>
           </ul>

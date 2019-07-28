@@ -16,7 +16,7 @@ class ExperienceSection extends React.Component {
                 className="colorlib-heading animate-box"
                 data-animate-effect="fadeInLeft"
               >
-                Here are some of my expertise
+                Here is some of what I've worked on
               </h2>
             </div>
           </div>
