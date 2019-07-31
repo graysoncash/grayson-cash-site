@@ -106,7 +106,20 @@ class NavBar extends React.Component {
         <div className="colorlib-footer">
           <ul>
             <li>
-              <a href="https://www.linkedin.com/in/graysonlcash">
+              <a
+                href="https://github.com/cashgl"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-github"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/graysonlcash"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fab fa-linkedin"></i>
               </a>
             </li>

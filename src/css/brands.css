@@ -8,6 +8,10 @@
   line-height: 1;
 }
 
+.fa-github:before {
+  content: "\f09b";
+}
+
 .fa-linkedin:before {
   content: "\f08c";
 }

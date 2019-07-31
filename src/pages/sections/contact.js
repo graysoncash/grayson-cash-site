@@ -16,7 +16,8 @@ class ContactSection extends React.Component {
                 className="colorlib-heading animate-box"
                 data-animate-effect="fadeInLeft"
               >
-                Drop a Line
+                Drop a line or email me at{" "}
+                <a href="mailto:me+inquiries@grayson.cash">me@grayson.cash</a>
               </h2>
             </div>
           </div>
@@ -45,7 +46,6 @@ class ContactSection extends React.Component {
                         type="email"
                         className="form-control"
                         placeholder="Email"
-                        // valid={this.state.errors.email ? "false" : "true"}
                         required
                       />
                     </div>

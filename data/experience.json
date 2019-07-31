@@ -1,0 +1,6 @@
+{
+  "theblacktux": [
+    "Built out an API platform using Django and GraphQL to free up our frontend and provide a flexible service layer to interact with the application.",
+    "Replaced and modernized our warehouse management solution to increase order accuracy, lower shipping costs, and increase the rate of delivery."
+  ]
+}

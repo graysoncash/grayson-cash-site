@@ -4,6 +4,8 @@ import RiotLogo from "../../images/riotlogo.png"
 import TbtLogo from "../../images/tbtlogo.png"
 import NordstromLogo from "../../images/nordstromlogo.png"
 
+import experienceContent from "../../../data/experience.json"
+
 class ExperienceSection extends React.Component {
   render() {
     return (
@@ -29,7 +31,7 @@ class ExperienceSection extends React.Component {
                 <div className="colorlib-icon">
                   <i style={{ backgroundImage: `url(${RiotLogo})` }}></i>
                 </div>
-                <div className="colorlib-text">
+                <div className="colorlib-text experience-entry">
                   <h3>Riot Games</h3>
                   <h4>December 2017 - present</h4>
                   <p>Site in progress...</p>
@@ -43,10 +45,14 @@ class ExperienceSection extends React.Component {
                 <div className="colorlib-icon">
                   <i style={{ backgroundImage: `url(${TbtLogo})` }}></i>
                 </div>
-                <div className="colorlib-text">
+                <div className="colorlib-text experience-entry">
                   <h3>The Black Tux</h3>
                   <h4>February 2016 - December 2017</h4>
-                  <p>Site in progress...</p>
+                  {experienceContent.theblacktux.map((s, i) => (
+                    <React.Fragment key={`experience-p-${i}`}>
+                      <p>- {s}</p>
+                    </React.Fragment>
+                  ))}
                 </div>
               </div>
 
@@ -57,7 +63,7 @@ class ExperienceSection extends React.Component {
                 <div className="colorlib-icon">
                   <i style={{ backgroundImage: `url(${NordstromLogo})` }}></i>
                 </div>
-                <div className="colorlib-text">
+                <div className="colorlib-text experience-entry">
                   <h3>Nordstrom</h3>
                   <h4>June 2014 - January 2016</h4>
                   <p>Site in progress...</p>
