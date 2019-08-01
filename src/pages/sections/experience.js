@@ -34,7 +34,11 @@ class ExperienceSection extends React.Component {
                 <div className="colorlib-text experience-entry">
                   <h3>Riot Games</h3>
                   <h4>December 2017 - present</h4>
-                  <p>Site in progress...</p>
+                  {experienceContent.riot.map((s, i) => (
+                    <React.Fragment key={`experience-riot-p-${i}`}>
+                      <p>- {s}</p>
+                    </React.Fragment>
+                  ))}
                 </div>
               </div>
 
@@ -49,7 +53,7 @@ class ExperienceSection extends React.Component {
                   <h3>The Black Tux</h3>
                   <h4>February 2016 - December 2017</h4>
                   {experienceContent.theblacktux.map((s, i) => (
-                    <React.Fragment key={`experience-p-${i}`}>
+                    <React.Fragment key={`experience-tbt-p-${i}`}>
                       <p>- {s}</p>
                     </React.Fragment>
                   ))}

@@ -2,5 +2,9 @@
   "theblacktux": [
     "Built out an API platform using Django and GraphQL to free up our frontend and provide a flexible service layer to interact with the application.",
     "Replaced and modernized our warehouse management solution to increase order accuracy, lower shipping costs, and increase the rate of delivery."
+  ],
+  "riot": [
+    "Responsible for building payment service providers integrations (think PayPal, credit card processors, etc.) into our Java-based gateway to accept payments across League of Legend's various regions and countries. This gateway replaces our legacy payment gateway and gives us more flexibility to attend to the game's needs (new game mode recently!), handle multitudes of heavy traffic during peak and promotional times, and run an AWS infrastructure stack that is self-managed.",
+    "Successfully lead the effort to migrate our Korean server from a payment solution not built or managed by Riot to the payment gateway aforementioned. This particular region proved to be a challenge due to local regulations (monthly spending limit by age, identity validation with the government, completely different UX) that were not present around the world. I organized and coordinated with the team in Seoul to collaborate on engineering and the actual transition."
   ]
 }

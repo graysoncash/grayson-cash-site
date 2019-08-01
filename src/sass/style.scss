@@ -324,7 +324,7 @@ figure {
 				a {
 					color: rgba(0,0,0,.7);
 					padding: 4px;
-					&:hover, &:active, &:focus {
+					&:hover, &:active {
 						text-decoration: none;
 						outline: none;
 						color: $brand-primary;
@@ -1091,7 +1091,7 @@ content: "\ea1c";
 	background: $brand-primary;
 	color: $brand-white;
 	border: 2px solid $brand-primary;
-	&:hover, &:focus, &:active {
+	&:hover, &:active {
 		background: lighten($brand-primary, 5%)!important;
 		border-color: lighten($brand-primary, 5%)!important;
 	}
