@@ -1,4 +1,9 @@
 {
+  "nordstrom": [
+    "Authored Java REST services for Product data ingestion and extraction in Elasticsearch. Services improved extraction speeds by 4-5x over traditional Product database.",
+    "Deployed text analytics for sentiment analysis on product reviews on Hadoop cluster. Jobs developed using Python, Hive, Ruby, and shell scripting. Output redirected for BA analysis.",
+    "Lead for Technology Engineering Internship. Converted 55% of interns to full-time or part-time roles. Responsible for coordination of engineering managers & mentors, recruitment, and improving processes over the previous year. The internship had successfully been granted more resources by senior leadership with each year."
+  ],
   "theblacktux": [
     "Built out an API platform using Django and GraphQL to free up our frontend and provide a flexible service layer to interact with the application.",
     "Replaced and modernized our warehouse management solution to increase order accuracy, lower shipping costs, and increase the rate of delivery."

@@ -70,7 +70,11 @@ class ExperienceSection extends React.Component {
                 <div className="colorlib-text experience-entry">
                   <h3>Nordstrom</h3>
                   <h4>June 2014 - January 2016</h4>
-                  <p>Site in progress...</p>
+                  {experienceContent.nordstrom.map((s, i) => (
+                    <React.Fragment key={`experience-nordstrom-p-${i}`}>
+                      <p>- {s}</p>
+                    </React.Fragment>
+                  ))}
                 </div>
               </div>
             </div>
