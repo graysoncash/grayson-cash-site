@@ -10,7 +10,7 @@ deploy:
   provider: s3
   access_key_id: $AWS_ACCESS_ID
   secret_access_key: $AWS_SECRET_ID
-  bucket: "grayson.cash"
+  bucket: "www.grayson.cash"
   region: us-west-2
   local_dir: public
   skip_cleanup: true
