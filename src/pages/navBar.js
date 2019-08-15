@@ -83,6 +83,16 @@ class NavBar extends React.Component {
                 Experience
               </button>
             </li>
+            <li>
+              <a
+                className="navbar-button"
+                href="https://drive.google.com/file/d/1H7LigVq8z27-c0MRj1CFrnmVySmz0ZW9/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Resume
+              </a>
+            </li>
             <li
               className={
                 this.props.activeTab === tabNames.CONTACT

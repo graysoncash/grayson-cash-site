@@ -5,7 +5,7 @@ $grid-gutter-width: 40px !default;
 $border-radius-base:  4px !default;
 $padding-base-vertical: 14px !default;
 
-$brand-primary: #F75940 !default;
+$brand-primary: rgb(201, 201, 201) !default;
 
 $burger-menu-color: #fff;
 $brand-white: #fff;
@@ -230,6 +230,9 @@ figure {
 				font-weight: 500;
 				text-transform: uppercase;
 				letter-spacing: 1px;
+				a.navbar-button {
+					padding-bottom: 3px;
+				}
 				.navbar-button {
 					color: rgba(0,0,0,.4);
 					text-decoration: none;

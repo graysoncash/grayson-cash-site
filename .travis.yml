@@ -12,8 +12,6 @@ deploy:
   secret_access_key: $AWS_SECRET_ID
   bucket: "grayson.cash"
   region: us-west-2
-  # paths:
-  #   - $(git ls-files -o | tr "\n" ":")
   local_dir: public
   skip_cleanup: true
   acl: public_read
