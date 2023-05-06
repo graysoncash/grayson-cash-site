@@ -15,7 +15,7 @@
     "lint": "tslint --project ."
   },
   "dependencies": {
-    "gatsby": "^2.13.3",
+    "gatsby": "^2.32.13",
     "gatsby-plugin-sass": "^2.1.0",
     "gatsby-plugin-tslint": "0.0.2",
     "gatsby-plugin-typescript": "^2.1.0",
